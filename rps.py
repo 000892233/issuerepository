@@ -7,7 +7,7 @@ while true:
 user_action = input ("input throw (rock, paper, scissors)or  'quit' to 'exit':  ").lower()
 	if  user_action == 'quit':
 	print("Thank you for playing! goodbye!")
-	break
+	break // break the code and stop the game when player quit the game.
 
 user_action = input("Enter throw (rock, paper, scissors): ")
 ai_action = random.choice(["rock", "paper", "scissors"])
