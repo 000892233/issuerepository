@@ -17,10 +17,10 @@ elif user_action == "rock":
     else:
         print("Paper covers rock! You lose.")
 elif user_action == "paper":
-    if ai_action == "paper":
+	if ai_action ="rock":
         print("Paper covers rock! You win!")
-    else:
-        print("Scissors cuts paper! You lose.")
+	else:
+	    print("scissor cuts paper! You lose.")
 elif user_action == "scissors":
     if ai_action == "paper":
         print("Scissors cuts paper! You win!")
