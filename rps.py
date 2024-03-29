@@ -22,7 +22,7 @@ elif user_action == "rock":
     else:
         print("Paper covers rock! You lose.")
 elif user_action == "paper":
-	if ai_action ="rock":
+	if ai_action ="rock"://change the rock in place of paper to correct the code.
         print("Paper covers rock! You win!")
 	else:
 	    print("scissor cuts paper! You lose.")
